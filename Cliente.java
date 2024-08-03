@@ -31,12 +31,8 @@ public class Cliente {
         return dataNascimento;
     }
 
+
     public void setDataNascimento(LocalDate DataNascimento){
         this.dataNascimento = DataNascimento;
-    }
-    Cliente(char g){
-        this.setCpf("12345678910");
-        this.setNome("Gabriel");
-        this.dataNascimento = LocalDate.of(2005, 9, 19);
     }
 }
